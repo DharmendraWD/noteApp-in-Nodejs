@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                .card{
+ min-height: 60px;
+            min-width: 20%;
+            background-color: #d1d1d1;
+            position: relative;
+        }
+        .card p{
+            font-size: 20px;
+            text-align: center;
+        }
+        .card a{
+           position: absolute;
+           top: 0;
+           left: 13%;
+                transform: translate(-50%, 0%);
+    bottom: 0;
+        }
+        .cards{
+            margin: 30px 0 0 0;
+            display: flex;
+           gap: 3px 12px;
+           flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+  
+
+        <div class="card">
+    <p><%= title%></p>
+    <p><%= file%></p>
+               <a href="/">Go Back</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
